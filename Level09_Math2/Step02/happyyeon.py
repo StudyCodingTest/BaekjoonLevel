@@ -12,12 +12,11 @@ prime_nums = []
 def checkPrimeNum(num) :  
     if num == 1:
         return 0
-    else :
-        for devider in range(2,num) :
-            if num % devider == 0 :
-                return 0
-        
-        return 1
+    for devider in range(2, int(num**0.5)+1) :
+        if num % devider == 0 :
+            return 0
+    
+    return 1
 
 # M~N 소수 리스트 생성
 for num in range(m, n+1) :
