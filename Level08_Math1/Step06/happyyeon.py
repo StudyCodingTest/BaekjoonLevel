@@ -4,9 +4,8 @@
 
 import sys
 
-t = int(sys.stdin.readline()) # 테스트 케이스 입력 받음
-
-for i in range(t) :
+# 테스트 케이스 입력 받음
+for i in range(int(sys.stdin.readline())) :
     k = int(sys.stdin.readline()) # K 층
     n = int(sys.stdin.readline()) # N 호
     current_floor_people = [i for i in range(1, n+1)] # Base case : 1,2,3, ... , n = 0층
