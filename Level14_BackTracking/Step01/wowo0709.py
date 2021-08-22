@@ -1,6 +1,6 @@
 # N과 M (1)
 # 184ms
-from itertools import permutations
+from itertools import permutations as P
 
 N, M = map(int, input().split())
-for p in permutations(range(1,N+1),M): print(*p)
+for p in P(range(1,N+1),M): print(*p)
