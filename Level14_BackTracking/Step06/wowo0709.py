@@ -58,7 +58,6 @@ def solve_sudoku(cnt):
 sudoku, coo_mat = [], []
 for i in range(9): 
     sudoku.append(list(map(int,input().split())))
-    # sudoku.append([0 for _ in range(9)])
     for j in range(9):
         if sudoku[-1][j] == 0: coo_mat.append((i,j))
 
