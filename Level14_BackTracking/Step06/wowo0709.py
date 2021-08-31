@@ -14,7 +14,6 @@ def solve_sudoku(cnt):
             solve_sudoku(cnt+1)
             sudoku[i][j] = 0
             row[i][n] = col[j][n] = sqr[i//3*3+j//3][n] = 0
-            
 
 sudoku, coo_mat = [], []
 row = [[0 for _ in range(10)] for _ in range(9)]
