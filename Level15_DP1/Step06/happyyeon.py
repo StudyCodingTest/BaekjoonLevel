@@ -7,7 +7,7 @@ input = sys.stdin.readline
 n = int(input())
 layers = [] # 삼각형의 한 층
 for _ in range(n) : # 층층이 추가
-    layers.append(list(map(int,input().split())))
+    layers.append(list(map(n,input().split())))
 
 for layer in range(1,n) : # 층 수
     for location in range(layer+1) : # 해당 층의 위치
