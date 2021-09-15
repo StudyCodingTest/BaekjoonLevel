@@ -17,6 +17,9 @@
 * [브루트 포스](https://www.acmicpc.net/step/22)
 * [정렬](https://www.acmicpc.net/step/9)
 * [백트래킹](https://www.acmicpc.net/step/34)
+* [동적 계획법 1](https://www.acmicpc.net/step/16)
+* [그리디 알고리즘](https://www.acmicpc.net/step/33)
+* [정수론 및 조합론](https://www.acmicpc.net/step/18)
 
 <br>
 
