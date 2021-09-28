@@ -20,6 +20,7 @@
 * [동적 계획법 1](https://www.acmicpc.net/step/16)
 * [그리디 알고리즘](https://www.acmicpc.net/step/33)
 * [정수론 및 조합론](https://www.acmicpc.net/step/18)
+* [스택](https://www.acmicpc.net/step/11)
 
 <br>
 
