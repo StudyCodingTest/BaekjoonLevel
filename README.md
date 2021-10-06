@@ -21,6 +21,7 @@
 * [그리디 알고리즘](https://www.acmicpc.net/step/33)
 * [정수론 및 조합론](https://www.acmicpc.net/step/18)
 * [스택](https://www.acmicpc.net/step/11)
+* [큐,덱](https://www.acmicpc.net/step/12)
 
 <br>
 
@@ -30,7 +31,5 @@
 
 <br>
 
-* [이시은](https://github.com/tldms975)
 * [이정연](https://github.com/happyyeon)
-* [전영우](https://github.com/wowo0709)
-* [허태원](https://github.com/HEOTAEWON)  
+* [전영우](https://github.com/wowo0709) 
