@@ -19,29 +19,3 @@ for idx in idxs:
     nums.popleft()
 
 print(cnt)
-
-
-
-'''
-from collections import deque
-N, M = map(int, input().split())
-mask = deque([0 for _ in range(N)])
-for idx in list(map(int, input().split())): mask[idx-1] = 1
-
-cnt = 0
-for _ in range(M): # 모든 idx를 pop할 때까지
-    for i in range(N//2+1): # 양쪽에서 탐색
-        if mask[i] == 1:
-            mask.rotate(-i)
-            cnt += i
-            break
-        elif mask[-(i+1)] == 1:
-            mask.rotate(i+1)
-            cnt += i+1
-            break
-
-    mask.popleft()
-
-print(cnt)
-'''
-
