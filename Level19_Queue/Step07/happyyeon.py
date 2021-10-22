@@ -7,7 +7,7 @@ from collections import deque
 for _ in range(int(input())):
     command = input().rstrip()
     n = int(input())
-    nums = deque(map(int,input()[1:-1].split(",")))
+    nums = deque(input()[1:-1].split(","))
 
     if n==0:
         nums = []
