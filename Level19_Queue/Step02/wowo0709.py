@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 # 카드2
 # 264ms
 from collections import deque
