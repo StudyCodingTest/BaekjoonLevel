@@ -1,6 +1,6 @@
 # 곱셈
 # 68ms
-def cal_power(n,k,c): # n^k
+def cal_power(n,k,c): # n^k%c
     if k in memo: pow = memo[k]
     elif k % 2 == 0: pow = cal_power(n,k//2,c) * cal_power(n,k//2,c)
     else: pow = cal_power(n,1,c) * cal_power(n,k-1,c)

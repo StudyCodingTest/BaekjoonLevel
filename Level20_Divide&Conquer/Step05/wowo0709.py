@@ -1,5 +1,5 @@
 # 이항 계수 3
-# 
+# 1816ms
 '''
 [페르마의 소정리]
 - a^(p-1) <=> 1 (mod p) // p는 소수이고 a는 p의 약수가 아닌 정수
@@ -12,7 +12,7 @@
             -> ((A % p) * B^(p-2)) % p
 - 결과적인 시간복잡도는 O(N + logN)
 '''
-def cal_power(n,k,c): # n^k
+def cal_power(n,k,c): # n^k%c
     if k in memo: pow = memo[k]
     elif k % 2 == 0: pow = cal_power(n,k//2,c) * cal_power(n,k//2,c)
     else: pow = cal_power(n,1,c) * cal_power(n,k-1,c)
