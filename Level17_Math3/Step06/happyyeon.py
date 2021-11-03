@@ -1,4 +1,4 @@
-# ë§
+# ë§?
 # 168ms
 
 import sys
@@ -16,7 +16,7 @@ def gcd(a, b):
 n = int(input())
 radiuses = list(map(int,input().split())) #[r0, r1, r2 ,...]
 
-for i in range(1,n) : # ì› r1, ì› r2 ,... ì— ëŒ€í•˜ì—¬
+for i in range(1,n) : # ?› r1, ?› r2 ,... ?— ????•˜?—¬
     devider = gcd(radiuses[0],radiuses[i])
     print("{0}/{1}".format(radiuses[0]//devider, radiuses[i]//devider))
 
