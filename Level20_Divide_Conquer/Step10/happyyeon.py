@@ -12,7 +12,7 @@ sorted_location.sort() # sorting based on the x-coordinate
 def get_dist(a,b):
     return (a[0]-b[0])**2 + (a[1]-b[1])**2
 
-def solution(l,r):
+def solution(l,r): 
     if l==r: # cannot split
         return float("inf")
     else:
@@ -50,5 +50,7 @@ if len(sorted_location) != len(set(sorted_location)):
     print(0)
 else:
     print(solution(0,len(sorted_location)-1))
+
+    
 
 
