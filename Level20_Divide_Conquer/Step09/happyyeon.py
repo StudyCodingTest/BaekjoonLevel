@@ -25,7 +25,7 @@ while True:
             if len(stack) == 0:
                 width = i
             else:
-                width = i - stack[-1] - 1
+                width = i - stack[-1] -1
             answer = max(answer,width*rec[temp])
         stack.append(i)
     
@@ -36,7 +36,7 @@ while True:
         if len(stack) == 0:
             width = n
         else:
-            width = n - stack[-1] - 1
+            width = n - stack[-1] -1
         answer = max(answer,width*rec[temp])
     
     print(answer)
