@@ -3,8 +3,7 @@ didj = [(-1,0), (1,0), (0,-1), (0,1)]
 def bfs(cur, state):
     if visited[state][cur[0]][cur[1]]:
         return 0
-    q = deque([])
-    q.append(cur)
+    q = deque([cur])
     visited[state][cur[0]][cur[1]] = True
     c = MAP[cur[0]][cur[1]]
     if state == 'RG/B' and c in 'RG': c = 'RG'
