@@ -16,8 +16,11 @@ Q에 적용될 일련의 연산이 주어질 때 이를 처리한 후 최종적�
 
 만약 Q가 비어있는데 적용할 연산이 ‘D’라면 이 연산은 무시해도 좋다. Q에 저장될 모든 정수는 32-비트 정수이다. 
 
+<<<<<<< HEAD
 듣도 못한 사람의 명단에는 중복되는 이름이 없으며, 보도 못한 사람의 명단도 마찬가지이다.
 
+=======
+>>>>>>> 95f839ab2b4a4d7c2fd7d1e6137c981d085b4b4a
 ## 출력
 
 출력은 표준출력을 사용한다. 각 테스트 데이터에 대해, 모든 연산을 처리한 후 Q에 남아 있는 값 중 최댓값과 최솟값을 출력하라. 두 값은 한 줄에 출력하되 하나의 공백으로 구분하라. 만약 Q가 비어있다면 ‘EMPTY’를 출력하라.
@@ -51,4 +54,21 @@ I 333
 ```
 EMPTY
 333 -45
+<<<<<<< HEAD
 ```
+=======
+```
+
+## 출처
+
+[ICPC](https://www.acmicpc.net/category/1) > [Regionals](https://www.acmicpc.net/category/7) > [Asia Pacific](https://www.acmicpc.net/category/42) > [Korea](https://www.acmicpc.net/category/211) > [Nationwide Internet Competition](https://www.acmicpc.net/category/256) > [Daejeon Nationalwide Internet Competition 2013](https://www.acmicpc.net/category/detail/1124) D번
+
+- 데이터를 추가한 사람: [BaaaaaaaaaaarkingDog](https://www.acmicpc.net/user/BaaaaaaaaaaarkingDog), [Nada](https://www.acmicpc.net/user/Nada)
+- 데이터를 만든 사람: [baekjoon](https://www.acmicpc.net/user/baekjoon)
+
+## 알고리즘 분류
+
+- [자료 구조](https://www.acmicpc.net/problem/tag/175)
+- [트리를 사용한 집합과 맵](https://www.acmicpc.net/problem/tag/74)
+- [우선순위 큐](https://www.acmicpc.net/problem/tag/59)
+>>>>>>> 95f839ab2b4a4d7c2fd7d1e6137c981d085b4b4a
