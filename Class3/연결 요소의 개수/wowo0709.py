@@ -1,7 +1,10 @@
-N, M = map(int, input().split())
+import sys
+input = sys.stdin.readline
+
+N, M = map(int, input().rstrip().split())
 graph = {i:[] for i in range(1,N+1)}
 for _ in range(M):
-    u, v = map(int, input().split())
+    u, v = map(int, input().rstrip().split())
     graph[u].append(v)
     graph[v].append(u)
 
