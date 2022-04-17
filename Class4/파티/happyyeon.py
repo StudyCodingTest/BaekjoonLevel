@@ -31,7 +31,6 @@ def search(current,end,time=0):
     for i in villages[current][1]:
         search(i[0],end,i[1]+time)
     return min_value
-
 # [1->x->1] 최소 비용, [2->x->2] 최소 비용, ... 를 구함
 node_to_x = []
 
