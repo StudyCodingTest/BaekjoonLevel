@@ -40,7 +40,7 @@ def find(x,y):
                 next_y = y + tetromino[i][j][1]
                 result += matrix[next_x][next_y]
             except:
-                continue
+                break
         answer = max(answer,result)
 
 # 완전탐색
