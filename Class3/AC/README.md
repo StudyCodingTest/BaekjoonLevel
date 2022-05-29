@@ -15,6 +15,7 @@ solved_ac[Class3] [AC](https://www.acmicpc.net/problem/5430)
 
 
 
+
 ## 입력
 
 첫째 줄에 테스트 케이스의 개수 T가 주어진다. T는 최대 100이다.
