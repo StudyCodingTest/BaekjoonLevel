@@ -35,6 +35,7 @@ solved_ac[Class3] [AC](https://www.acmicpc.net/problem/5430)
 
 
 
+
 ## 예제 입력 1 
 
 ```
