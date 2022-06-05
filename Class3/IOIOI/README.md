@@ -34,7 +34,7 @@ S에 PN이 몇 군데 포함되어 있는지 출력한다.
 
 ## 서브태스크
 
-![img](img.png)
+<img width="340" alt="스크린샷 2022-06-04 오후 9 38 56" src="https://user-images.githubusercontent.com/88064555/171999324-2241d01e-e90f-4cc0-a68a-40256daf31f1.png">
 
 
 ## 예제 입력 1 
